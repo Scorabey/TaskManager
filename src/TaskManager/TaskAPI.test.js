@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { beforeEach, describe, expect, it } from 'vitest'
 import { TaskAPI, TaskNotFouodError } from './TaskAPI'
 
 describe("TaskAPI", async () => {
@@ -134,6 +134,10 @@ describe("TaskNotFound on TaskAPI", () => {
 
         it("TaskAPI throwing TypeError on add task", () => {
             expect(() => callTask.addTask("")).toThrow(TypeError)
+        })
+
+        it("TaskAPI throwing TypeError on find task by id", () => {
+            expect(() => callTask.findTaskById(-1)).toThrow(TypeError)
         })
 
     })

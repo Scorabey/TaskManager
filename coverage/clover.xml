@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1791020506375" clover="3.2.0">
-  <project timestamp="1791020506375" name="All files">
-    <metrics statements="34" coveredstatements="33" conditionals="11" coveredconditionals="10" methods="20" coveredmethods="20" elements="65" coveredelements="63" complexity="0" loc="34" ncloc="34" packages="1" files="1" classes="1"/>
+<coverage generated="1791020952609" clover="3.2.0">
+  <project timestamp="1791020952609" name="All files">
+    <metrics statements="34" coveredstatements="34" conditionals="11" coveredconditionals="11" methods="20" coveredmethods="20" elements="65" coveredelements="65" complexity="0" loc="34" ncloc="34" packages="1" files="1" classes="1"/>
     <file name="TaskAPI.js" path="C:\Users\PC\OneDrive\Desktop\TaskManager\src\TaskManager\TaskAPI.js">
-      <metrics statements="34" coveredstatements="33" conditionals="11" coveredconditionals="10" methods="20" coveredmethods="20"/>
+      <metrics statements="34" coveredstatements="34" conditionals="11" coveredconditionals="11" methods="20" coveredmethods="20"/>
       <line num="3" count="6" type="stmt"/>
       <line num="4" count="6" type="stmt"/>
       <line num="5" count="6" type="stmt"/>
-      <line num="10" count="13" type="stmt"/>
-      <line num="11" count="13" type="stmt"/>
-      <line num="18" count="7" type="cond" truecount="3" falsecount="1"/>
-      <line num="19" count="0" type="stmt"/>
+      <line num="10" count="14" type="stmt"/>
+      <line num="11" count="14" type="stmt"/>
+      <line num="18" count="8" type="cond" truecount="4" falsecount="0"/>
+      <line num="19" count="1" type="stmt"/>
       <line num="20" count="10" type="stmt"/>
       <line num="21" count="7" type="cond" truecount="2" falsecount="0"/>
       <line num="22" count="3" type="stmt"/>
@@ -22,7 +22,7 @@
       <line num="49" count="7" type="stmt"/>
       <line num="50" count="7" type="stmt"/>
       <line num="55" count="4" type="stmt"/>
-      <line num="63" count="2" type="stmt"/>
+      <line num="63" count="3" type="stmt"/>
       <line num="71" count="1" type="stmt"/>
       <line num="72" count="1" type="stmt"/>
       <line num="73" count="1" type="stmt"/>
