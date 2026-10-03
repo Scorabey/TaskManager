@@ -1,6 +1,6 @@
-const prompts = require("prompts");
-const TaskAPI = require("./TaskAPI");
-const chalk = require("chalk")
+import prompts from "prompts";
+import { TaskAPI } from "./TaskAPI";
+import chalk from "chalk";
 
 const colors = {
   green: "#30be2b",

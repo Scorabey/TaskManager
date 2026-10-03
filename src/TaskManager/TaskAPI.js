@@ -125,4 +125,9 @@ class TaskAPI {
   }
 }
 
-module.exports = { TaskAPI, TaskNotFouodError }
+// module.exports = { TaskAPI, TaskNotFouodError }
+
+export {
+  TaskAPI, 
+  TaskNotFouodError
+}
