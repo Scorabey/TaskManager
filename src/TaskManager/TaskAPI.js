@@ -19,7 +19,7 @@ class TaskAPI {
       throw new TypeError("Id must be a number");
     const task = this.#tasks.find((task) => task.id === id);
     if (!task)
-      throw new TaskNotFouodError(`Oops... Tasks by id: ${id}, not found!`);
+      throw new TaskNotFouodError(id);
     return task;
   }
 
@@ -125,4 +125,4 @@ class TaskAPI {
   }
 }
 
-module.exports = TaskAPI
+module.exports = { TaskAPI, TaskNotFouodError }
