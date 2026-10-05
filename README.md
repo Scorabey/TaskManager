@@ -72,7 +72,7 @@ npm install
 ### Run
 
 ```bash
-node run dev
+npm run dev
 ```
 
 Use the arrow keys to navigate the menu and `Enter` to select an option.
