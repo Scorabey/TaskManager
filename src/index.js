@@ -1,4 +1,4 @@
-const actions = require('./TaskManager/TaskManager');
+import { actions } from "./TaskManager/TaskManager.js";
 
 (async () => {
     while(true) {

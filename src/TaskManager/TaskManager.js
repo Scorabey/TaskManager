@@ -1,5 +1,5 @@
 import prompts from "prompts";
-import { TaskAPI } from "./TaskAPI";
+import { TaskAPI } from "./TaskAPI.js";
 import chalk from "chalk";
 
 const colors = {
@@ -113,4 +113,6 @@ const actions = {
   },
 };
 
-module.exports = actions;
+export {
+  actions
+}
